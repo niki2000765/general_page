@@ -28,7 +28,7 @@ ul li{
 }
 
 .wrapper-main{
-    background: url(./../imeges/1.png) center top no-repeat, url(./../imeges/2.png) right bottom 180px  no-repeat;
+    background: url(./../imeges/1.png) center top no-repeat, url(/imeges/2.png) right bottom 180px  no-repeat;
 }
 
 *{
