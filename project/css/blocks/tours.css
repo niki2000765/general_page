@@ -1,0 +1,105 @@
+.offers__block{
+    margin-bottom: 119px;   
+}
+
+
+.offers__title{
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 51px;
+    line-height: 1.;
+    width: 273px;
+    height: 49px;
+}
+
+.tours{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tours__item{
+    width: calc(100% / 3 - 18px);
+}
+
+.tour{
+    color: black;
+    min-height: 449px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.tours__item:last-child{
+    margin-right: 0;
+}
+
+.tours__content{
+    min-height: 144;
+    margin-top: 0px;
+}
+
+.tours__desc{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    padding-left: 22px;
+    margin-bottom: 27px;
+    flex: 1;
+}
+
+.tours__desc-block{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tours__name{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 27px;
+    margin-bottom: 20px;
+}
+
+.tours__desc-inf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 25px;
+    margin-left: 4px;
+}
+.tours__desc-inf:last-child{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.tours__desc-cont{
+    margin-right: 9px;
+}
+.tours__desc-cont:last-child{
+    margin-right: 0;
+}
+
+.tours__about{
+    margin-bottom: 26px;
+    font-size: 14px;
+}
+
+.tours__desk-btn{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: auto;
+}
+
+.tours__btn{
+    color: #f5170e;
+    width: 135px;
+    padding: 18px 27px;
+    background: #fff;
+    border: 1px solid #F5170E
+}
+
+.tours__btn:hover{
+    color: #fff;
+    background: #F5170E;
+}

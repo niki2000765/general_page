@@ -1,0 +1,21 @@
+.top{
+    min-height: 412px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 23px;
+    background: #001821 url("./../../imeges/headline 1.png") right 20% top no-repeat;
+}
+
+.top__container{
+    display: flex;
+    flex: 1;   
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page-title{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1;
+    margin-bottom: 85px;
+}

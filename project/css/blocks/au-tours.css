@@ -1,0 +1,27 @@
+.au-tours{
+    margin-bottom: 246px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    min-height: 424px;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.au-tours__title{
+    width: 50%;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.;
+    margin: 0;
+    margin-bottom: 21px;
+}
+
+.au-tours__cont{
+    font-size: 18px;
+    margin-bottom: 31px;
+}
+
+.au-tours__btn{
+    padding: 18px 40px;
+}

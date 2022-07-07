@@ -1,0 +1,22 @@
+.adress{
+    text-align: right;
+    font-size: normal;
+}
+
+.adress__phone{
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 1;
+}
+
+.adress__shedule{
+    font-size: 13px;
+    text-decoration: underline;
+    margin-top: -7px;  
+    margin-right: 2px;  
+}
+
+.adress__shedule--footer{
+    color: #9A9A9A;
+    font-size: 11px;
+}

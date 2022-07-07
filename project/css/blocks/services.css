@@ -1,0 +1,43 @@
+.services{
+    margin-bottom: 65px;
+}
+
+.service{
+    display: flex;
+    margin-top: 49px;
+}
+
+.service__img{
+    width: 41%;
+    margin-right: 4.4%;
+}
+
+.service__content{
+    flex: 1;
+}
+
+.service__title{
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 29px;
+    margin-top: 11px;
+}
+
+.service__desc{
+    line-height: 1.69;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.service__btn{
+    color: #f5170e;
+    width: 135px;
+    padding: 18px 39px;
+    background: #F2F2F2;
+    border: 1px solid #F5170E
+}
+
+.service__btn:hover{
+    color: #fff;
+    background: #F5170E;
+}
