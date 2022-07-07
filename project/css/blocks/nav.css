@@ -16,6 +16,10 @@
     text-decoration: none;
 }
 
+.nav__link-active{
+    color: #F5170E;
+}
+
 .nav__link:hover{
-    color: 000;
+    color: #F5170E;
 }
