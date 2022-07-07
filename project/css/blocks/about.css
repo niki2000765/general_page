@@ -7,7 +7,7 @@
     content: "";
     width: 490px;
     height: 505px;
-    background: url("/../imeges/gates.png") center center / cover no-repeat;
+    background: url("./../../imeges/gates.png") center center / cover no-repeat;
 }
 
 .about{
@@ -16,7 +16,7 @@
 
 .about__desk{
     color: #000;
-    background: url("/../imeges/mountains.png") center center / cover no-repeat;;
+    background: url("./../../imeges/mountains.png") center center / cover no-repeat;;
     padding: 66px 83px;
     height: 455px;
     width: 785px;
