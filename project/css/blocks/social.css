@@ -1,5 +1,4 @@
 .social{
-    
     margin-right: 74px;
 }
 
@@ -31,7 +30,7 @@
 }
 
 .social__item--tg .social__link:after{
-    opacity: 0;
+    opacity: 1;
 }
 
 .social__item--tg .social__link:after{
@@ -67,7 +66,7 @@
 }
 
 .social__item--vk .social__link:after{
-    opacity: 0;
+    opacity: 1;
 }
 
 .social__item--vk .social__link:before{
@@ -103,7 +102,7 @@
 }
 
 .social__item--f .social__link:after{
-    opacity: 0;
+    opacity: 1;
 }
 .social__item--f .social__link:before{
     content: "";
@@ -138,7 +137,7 @@
 }
 
 .social__item--in .social__link:after{
-    opacity: 0;
+    opacity: 1;
 }
 .social__item--in .social__link:before{
     content: "";

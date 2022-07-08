@@ -1,6 +1,8 @@
 .adress{
     text-align: right;
     font-size: normal;
+    display: block;
+    max-width: 200px;
 }
 
 .adress__phone{
@@ -23,28 +25,66 @@
 
 .dropdown{
     position: relative;
+    display: inline-block;
+    justify-content: flex-end;
+}
+
+.dropdown:hover .triangle{
+    left: -60;
+    opacity: 1;
 }
 
 .dropdown:hover .dropdown__menu{
-    display: block;
+    left: -60px;
+    opacity: 1;
 }
+
+.triangle {
+    position: relative;
+    border: 10px solid transparent;
+    width: 0px;
+    height: 0px;
+    border-bottom-color: #EDEDED;
+    border-top-width: 0;
+    border-left-width: 5;
+    border-right-width: 5;
+    margin-bottom: -10px;
+    top: 100%;
+    left: 60px;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity .4s;
+ }
 
 .dropdown__menu{
     position: absolute;
     background: #EDEDED;
-    padding: 10px 20px;
+    padding: 10px 19px;
     border-radius: 5px;
     color: #1E1F20;
     width: 160px;
     top: 100%;
-    display: none;
+    left: -9999px;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity .4s;
 }
 
-.dropdown__item--text{
+.dropdown__menu:before{
+    content: "";
+    display: block;
+    height: 20px;
+    left: 0;
+    right: 0;
+    top: -19px;
+    position: absolute;
+}
+
+.dropdown__item{
+    text-align: left;
     font-size: 13px;
     font-weight: 700;
-    margin-left: 0;
-    height: 21px;
+    margin-bottom: 5px;
 }
 
 .dropdown__item--text--lunch{
