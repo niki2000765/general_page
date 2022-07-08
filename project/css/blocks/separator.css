@@ -7,16 +7,26 @@
 }
 
 .separator__cont{
-    min-width: 50%;
+    display: flex;
+    
+}
+
+.separator__text{
+    margin-top: 117px;
+    width: 54%;
+
 }
 
 .separator__title{
+    line-height: 1.;
     color: #fff;
     font-weight: bold;
     font-size: 48px;
-    line-height: 1.1;
+   
 }
 
 .separator__img{
-
+    margin-top: 22px;
+    align-items: flex-end;
+    margin-bottom: 0;
 }

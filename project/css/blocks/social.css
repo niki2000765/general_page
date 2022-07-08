@@ -11,6 +11,8 @@
     margin-right: 6px;
     display: inline-block;
     margin-right: 6px;
+    width: 36px;
+    height: 36px;
 }
 
 .social__item:last-child{
@@ -22,37 +24,146 @@
     text-decoration: none;
     width: 36px;
     height: 36px;
-    background: center center no-repeat;
 }
 
-.social__item--icon--tg .social__link{
-    background-image: url("/imeges/t1.png");
+.social__item--tg .social__link:before{
+    opacity: 1;
 }
 
-.social__item--icon--tg .social__link:hover{
-    background-image: url("/imeges/t2.png");
+.social__item--tg .social__link:after{
+    opacity: 0;
 }
 
-.social__item--icon--vk .social__link{
-    background-image: url("/imeges/vk1.png");
+.social__item--tg .social__link:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("./../../imeges/sprites.png") -234px -10px;
+    transition: .3s;
 }
 
-.social__item--icon--vk .social__link:hover{
-    background-image: url("/imeges/vk2.png");
+.social__item--tg .social__link:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("./../../imeges/sprites.png") -290px -10px;
+    opacity: 0;
+    transition: .3s;
 }
 
-.social__item--icon--f .social__link{
-    background-image: url("/imeges/f1.png");
+
+.social__item--vk .social__link:before{
+    opacity: 1;
 }
 
-.social__item--icon--f .social__link:hover{
-    background-image: url("/imeges/f2.png");
+.social__item--vk .social__link:after{
+    opacity: 0;
 }
 
-.social__item--icon--in .social__link{
-    background-image: url("/imeges/in1.png");
+.social__item--vk .social__link:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("./../../imeges/sprites.png")-346px -10px;
+    opacity: 0;
+    transition: .3s;
 }
 
-.social__item--icon--in .social__link:hover{
-    background-image: url("/imeges/in2.png");
+.social__item--vk .social__link:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("./../../imeges/sprites.png") -402px -10px;
+    transition: .3s;
 }
+
+
+.social__item--f .social__link:before{
+    opacity: 1;
+}
+
+.social__item--f .social__link:after{
+    opacity: 0;
+}
+.social__item--f .social__link:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("./../../imeges/sprites.png") -10px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.social__item--f .social__link:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("./../../imeges/sprites.png") -66px -10px;
+    transition: .3s;
+}
+
+
+.social__item--in .social__link:before{
+    opacity: 1;
+}
+
+.social__item--in .social__link:after{
+    opacity: 0;
+}
+.social__item--in .social__link:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("./../../imeges/sprites.png") -122px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.social__item--in .social__link:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url("./../../imeges/sprites.png") -178px -10px;
+    transition: .3s;
+}
+
