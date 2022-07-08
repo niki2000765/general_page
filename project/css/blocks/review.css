@@ -1,0 +1,66 @@
+.reviews__item{
+    margin-bottom: 17px;
+    border-radius: 5px;
+}
+
+.review{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 30px 32px;
+    background: #F4F5F5;
+
+}
+
+.reviews{
+    column-count: 2;
+    margin-top: 49px;
+    column-gap: 27px;
+    margin-bottom: 75px;
+}
+
+.review__photo{
+    margin-right: 22px;
+}
+
+.review__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.review__user{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #2E77A4;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+
+.review__user:after{
+    content: url("./../../imeges/vk-blue 1.png");
+    height: 30px;
+}
+
+.review__tags{
+    display: flex;
+    align-items: flex-start;
+}
+
+.review__title{
+    color: #1A1B1E;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.review__cont-text{
+    color: #818181;
+    margin-bottom: 48px;
+}
+
+.review__date{
+    color: #1A1B1E;
+    font-size: 14px;
+    font-weight: 600;
+}

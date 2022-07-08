@@ -5,6 +5,20 @@
    align-items: center;
 }
 
+.paginator--theme--red{
+    color:#000000;
+}
+
+.paginator--theme--red .paginator__item:hover{
+    background: #F5170E;
+    color: #fff;
+}
+
+.paginator--theme--red .paginator__item--active .paginator__link{
+    background: #F5170E;
+    color: #fff;
+}
+
 .paginator__display{
     margin-right: 26px;
 }

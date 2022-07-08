@@ -92,14 +92,5 @@
 }
 
 .tours__btn{
-    color: #f5170e;
-    width: 135px;
     padding: 18px 27px;
-    background: #fff;
-    border: 1px solid #F5170E
-}
-
-.tours__btn:hover{
-    color: #fff;
-    background: #F5170E;
 }

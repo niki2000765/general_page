@@ -7,8 +7,36 @@
     text-decoration: none;
     font-style: 13px;
     text-transform: uppercase;
+    padding: 18px 40px;
 }
 
-.btn:hover{
 
+.btn:hover{
+    color: #f5170e;
+    background: #fff;
+    border: 1px #F5170E
+}
+
+.btn-color-white{
+    color: #f5170e;
+    width: 135px;
+    padding: 18px 27px;
+    background: #fff;
+    border: 1px solid #F5170E
+}
+
+.btn-color-white:hover{
+    color: #fff;
+    background: #F5170E;
+}
+
+.btn-color-black{
+    color: #fff;
+    background: #2B2B2B;
+}
+
+.btn-color-black:hover{
+    color: #2B2B2B;
+    background: #fff;
+    border: solid #2B2B2B;
 }

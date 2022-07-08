@@ -37,6 +37,12 @@ ul li{
     border-spacing: 0;
 }
 
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 .wrapper{
     overflow: hidden;
     min-height: 100%;

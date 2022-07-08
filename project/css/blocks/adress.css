@@ -20,3 +20,26 @@
     color: #9A9A9A;
     font-size: 11px;
 }
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown__menu{
+    position: absolute;
+    background: #EDEDED;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #1E1F20;
+    
+}
+
+.dropdown__item{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.dropdown__item-lunch{
+    font-size: 13px;
+    font-weight: 400;
+}
