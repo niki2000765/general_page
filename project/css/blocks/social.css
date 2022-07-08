@@ -3,15 +3,13 @@
 }
 
 .social__list{
-    
+    display: inline-block;
+    justify-content: center;
 }
 
 .social__item{
     margin-right: 6px;
-    display: inline-block;
     margin-right: 6px;
-    width: 36px;
-    height: 36px;
 }
 
 .social__item:last-child{
@@ -25,15 +23,15 @@
     height: 36px;
 }
 
-.social__item--tg .social__link:before{
+.social__link-tg:hover:before{
     opacity: 1;
 }
 
-.social__item--tg .social__link:after{
-    opacity: 1;
+.social__link-tg:hover:after{
+    opacity: 0;
 }
 
-.social__item--tg .social__link:after{
+.social__link-tg:after{
     content: "";
     display: block;
     position: absolute;
@@ -46,7 +44,7 @@
     transition: .3s;
 }
 
-.social__item--tg .social__link:before{
+.social__link-tg:before{
     content: "";
     display: block;
     position: absolute;
@@ -59,17 +57,17 @@
     opacity: 0;
     transition: .3s;
 }
+/*
 
-
-.social__item--vk .social__link:before{
+.social__link-vk:hover:before{
     opacity: 1;
 }
 
-.social__item--vk .social__link:after{
-    opacity: 1;
+.social__link-vk:hover:after{
+    opacity: 0;
 }
 
-.social__item--vk .social__link:before{
+.social__link-vk:before{
     content: "";
     display: block;
     position: absolute;
@@ -83,7 +81,7 @@
     transition: .3s;
 }
 
-.social__item--vk .social__link:after{
+.social__link-vk:after{
     content: "";
     display: block;
     position: absolute;
@@ -97,14 +95,14 @@
 }
 
 
-.social__item--f .social__link:before{
+.social__link-f:hover:before{
     opacity: 1;
 }
 
-.social__item--f .social__link:after{
-    opacity: 1;
+.social__link-f:hover:after{
+    opacity: 0;
 }
-.social__item--f .social__link:before{
+.social__link-f:before{
     content: "";
     display: block;
     position: absolute;
@@ -118,7 +116,7 @@
     transition: .3s;
 }
 
-.social__item--f .social__link:after{
+.social__link-f:after{
     content: "";
     display: block;
     position: absolute;
@@ -132,14 +130,14 @@
 }
 
 
-.social__item--in .social__link:before{
+.social__link-in:hover:before{
     opacity: 1;
 }
 
-.social__item--in .social__link:after{
-    opacity: 1;
+.social__link-in:hover:after{
+    opacity: 0;
 }
-.social__item--in .social__link:before{
+.social__link-in:before{
     content: "";
     display: block;
     position: absolute;
@@ -153,7 +151,7 @@
     transition: .3s;
 }
 
-.social__item--in .social__link:after{
+.social__link-in:after{
     content: "";
     display: block;
     position: absolute;
